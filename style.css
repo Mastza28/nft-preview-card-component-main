@@ -70,10 +70,13 @@ html {
 
 .title {
     color: #d9dce1;
+}
+
+.titlehov {
     cursor: pointer;
 }
 
-.title:hover {
+.titlehov:hover {
     color: #22d4d6;
 }
 
