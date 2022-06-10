@@ -25,12 +25,15 @@ html {
 }
 
 .nft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     width: 100%;
-    
+    height: 100%;
 }
 
-.nft img {
+.nftimg {
     width: 100%;
     border-radius: 20px;
     display: block;
@@ -38,20 +41,32 @@ html {
 
 .view {
     position: absolute;
-    top: 0;
+    z-index: 2;
+}
+
+.viewbck {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #22d4d6;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.pop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    cursor: pointer;
     width: 100%;
     height: 100%;
     opacity: 0;
-    border-radius: 20px;
-    background-color: #22d4d6;
-    cursor: pointer;
-    z-index: 1;
 }
 
-.view:hover {
-    opacity: .5;
+.pop:hover {
+    opacity: .6;
 }
-
 
 .title {
     color: #d9dce1;
