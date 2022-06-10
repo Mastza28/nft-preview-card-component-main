@@ -18,7 +18,7 @@ Challenge
 
 
 Solution
-![](/images/Home-Page.jpg)
+![](/images/Home-Page.JPG)
 
 
 ### Links
