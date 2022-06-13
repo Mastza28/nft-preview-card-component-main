@@ -23,7 +23,7 @@ Solution
 
 ### Links
 
-- Live Site URL: [Mastza28 QR Code Component](https://mastza28.github.io/nft-preview-card-component-main/)
+- Live Site URL: [Mastza28 NFT Preview Card](https://mastza28.github.io/nft-preview-card-component-main/)
 
 
 ### Author
